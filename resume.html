@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Sneha Marabannavar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header: photo-right -->
+  <header class="site-header photo-right">
+    <div class="header-inner">
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="resume.html" class="active">Resume</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="hd-right">
+        <div class="name-block">
+          <h1 class="site-name" id="resumeName">Sneha Marabannavar</h1>
+          <div class="role" id="resumeRole">STUDENT</div>
+        </div>
+        <div class="photo-wrap"><img src="./assets/profile.jpg" alt="profile" class="site-photo" id="resumeHeaderPhoto"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="resume-container">
+    <header class="resume-header card">
+      <div class="hdr-left">
+        <div class="photo-wrap-small"><img src="./assets/profile.jpg" alt="Sneha" class="photo" id="resumePhoto"></div>
+        <div>
+          <h2 class="fullname"><span class="accent" id="firstName">Sneha</span> <span id="lastName">Marabannavar</span></h2>
+          <div class="role muted">B.E. — Computer Science (VTU)</div>
+        </div>
+      </div>
+
+      <aside class="hdr-right muted">
+        <div>📞 <span id="resumePhone">+91 98765 43210</span></div>
+        <div>📍 <span id="resumeLocation">Kundgol, Dharwad</span></div>
+        <div>✉️ <span id="resumeEmail">snehamarabannavar@example.com</span></div>
+      </aside>
+    </header>
+
+    <section class="profile card">
+      <p id="profileSummary">Motivated Computer Science student with hands-on experience in microcontrollers and web development. Skilled in HTML, CSS, JavaScript, and PHP/MySQL. Eager to learn and grow.</p>
+    </section>
+
+    <section class="card projects">
+      <h3>PROJECT EXPERIENCE</h3>
+      <div class="proj">
+        <div class="proj-title">Registration Web App</div>
+        <div class="proj-desc">Built a responsive registration form with JS validation and a PHP + MySQL backend (admin view and CSV export).</div>
+      </div>
+      <div class="proj">
+        <div class="proj-title">Microcontroller Data Logger</div>
+        <div class="proj-desc">AVR-based data logger reading sensor values and sending them via UART.</div>
+      </div>
+    </section>
+
+    <section class="three-boxes">
+      <div class="box card">
+        <h4>Education</h4>
+        <p>B.E. in Computer Science<br>VTU — Expected 2026</p>
+      </div>
+      <div class="box card">
+        <h4>Skills</h4>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">PHP</span></div>
+      </div>
+      <div class="box card">
+        <h4>Interests</h4>
+        <div class="tags"><span class="tag">Coding</span><span class="tag">Electronics</span></div>
+      </div>
+    </section>
+
+    <footer class="resume-footer muted">
+      Declaration: I hereby declare that the above information is true to the best of my knowledge.
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

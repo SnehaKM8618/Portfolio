@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Sneha</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header: photo-left so nav appears -->
+  <header class="site-header photo-left">
+    <div class="header-inner">
+      <div class="hd-left">
+        <div class="photo-wrap"><img src="./assets/profile.jpg" alt="profile" class="site-photo"></div>
+        <div class="name-block"><h1 class="site-name">Sneha Marabannavar</h1><div class="role">STUDENT</div></div>
+      </div>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card contact-form">
+      <h2>Contact / Edit Info</h2>
+      <form id="editForm">
+        <label>Name<br><input type="text" name="name" placeholder="Full name"></label>
+        <label>Email<br><input type="email" name="email" placeholder="you@example.com"></label>
+        <label>Phone<br><input type="text" name="phone" placeholder="+91 ..."></label>
+        <label>Location<br><input type="text" name="location" placeholder="Kundgol, Dharwad"></label>
+        <label>About (short)<br><textarea name="about" rows="3" placeholder="Short profile summary"></textarea></label>
+        <label>Profile photo path / URL<br><input type="text" name="photo" placeholder="assets/profile.jpg"></label>
+
+        <div style="margin-top:12px">
+          <button type="submit" class="btn btn-pink">Save</button>
+          <a href="resume.html" class="btn btn-outline" style="margin-left:8px">Cancel</a>
+        </div>
+      </form>
+      <p class="small-muted" style="margin-top:10px">Saved locally in your browser (localStorage).</p>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 Sneha Marabannavar</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home — Sneha Marabannavar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header: photo-left variant for home (keeps nav visible) -->
+  <header class="site-header photo-left">
+    <div class="header-inner">
+      <div class="hd-left">
+        <div class="photo-wrap"><img src="./assets/profile.jpg" alt="profile" class="site-photo" id="headerPhoto"></div>
+        <div class="name-block">
+          <h1 class="site-name" id="siteName">Sneha Marabannavar</h1>
+          <div class="role" id="siteRole">STUDENT</div>
+        </div>
+      </div>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="home-container container">
+    <section class="hero">
+      <h2 class="hero-welcome">Hi — I'm <span id="heroName">Sneha</span></h2>
+
+      <div class="about-card card">
+        <h3>About Me</h3>
+        <p id="aboutMe">Hello! I'm Sneha, a Computer Science student passionate about web development and microcontrollers. I enjoy building practical projects and learning new skills.</p>
+      </div>
+
+      <!-- single clear CTA (no duplicate links) -->
+      <div class="btn-row" style="margin-top:14px">
+        <a href="resume.html" class="btn btn-pink">View Resume</a>
+      </div>
+
+      <div class="contact-summary" style="margin-top:18px;color:var(--muted)">
+        <div>📞 <span id="homePhone">+91 98765 43210</span>  •  📍 <span id="homeLocation">Kundgol, Dharwad</span></div>
+        <div style="margin-top:6px">✉️ <span id="homeEmail">snehamarabannavar@example.com</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="footerYear">2025</span> <span id="footerName">Sneha Marabannavar</span></footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
